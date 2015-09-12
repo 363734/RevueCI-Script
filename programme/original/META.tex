@@ -1,0 +1,85 @@
+%% File containing Latex macro %%
+%% --------------------------- %%
+
+%% Title of the revue %% 
+
+\newcommand{\REVUENOM} {Revue des Ingénieurs 2015} %% <= change the year
+
+%% Actors names macro's to ease the change of all when final name chosen %%
+%% !! use Upper Case macro name and a white space after the name into the macro %%
+
+\newcommand{\PROFA} {prof 1 } %% <= change the actors name
+\newcommand{\PROFB} {prof 2 }
+
+%% Team-specific macro %%
+
+\newcommand{\team}[3] {\textbf{\textcolor{#1}{\bsc{#2}: #3}}}
+
+\newcommand{\bruitage}[1] {\team{red}{Bruitage}{#1}}
+\newcommand{\access}[1] {\team{blue}{Access}{#1}}
+\newcommand{\decor}[1] {\team{cyan}{Décors}{#1}}
+\newcommand{\light}[1] {\team{magenta}{Lumière}{#1}}
+\newcommand{\costume}[1] {\team{orange}{Costume}{#1}}
+
+%% Macro to list the actors on stage %%
+
+\newcommand{\acteurs}[1] {\begin{center}\textbf{\MakeUppercase{#1}}\end{center}}
+
+%% Macro for pre-in-post box %%
+
+\newcommand{\STATE}[3] {\fbox{\begin{minipage}{0.9\textwidth}
+
+\vspace{0.25cm}
+\underline{PRE  :} #1 \vspace{0.5cm}
+
+\underline{IN   :} #2 \vspace{0.5cm}
+
+\underline{POST :} #3 \vspace{0.25cm}
+\end{minipage}} }
+
+%% Macro for leftside boxes for crap %%
+
+\newcommand{\PAGEGAUCHE}[1]{\begin{flushright}
+\fbox{\begin{minipage}{0.6\textwidth}
+\vspace{0.25cm}
+#1
+\vspace{0.25cm}
+\end{minipage}} 
+\end{flushright}}
+
+%% Macro for musician to settle at good places %%
+%% \MUSIA for going into the pendrillon
+%% \MUSIB for going on stage
+
+\newcommand{\MUSIA}{
+\begin{flushright}
+\fbox{\textbf{\textcolor{purple}{Musique pendrillon}}}
+\end{flushright}
+}
+
+\newcommand{\MUSIB}{
+\begin{flushright}
+\fbox{\textbf{\textcolor{purple}{Musique install}}}
+\end{flushright}
+}
+
+%% Macro to insert a music pause %%
+
+\newcommand{\MUSIQUE}[1]{
+===============\\
+|| MUSIQUE #1      ||\\
+===============\\}
+
+%% Macro to insert a TOP %%
+
+\newcommand{\TOP}[1]{\fbox{\textbf{\textcolor{purple}{TOP: #1}}}}
+
+
+
+
+
+
+
+
+
+
