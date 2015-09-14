@@ -1,0 +1,30 @@
+﻿Comment faire de Notepad++ l'éditeur idéal pour la Revue?
+-------------------------------------------------------
+Ce tuto fonctionne au moins sous Windows ^^ (Sorry, Unix users!)
+
+(1) Télécharger Notepad++ 
+ --> allez sur le site https://notepad-plus-plus.org/ 
+ --> cliquez sur l'onglet Download sur la gauche, et cliquez sur le gros bouton vert (si, si!)
+ --> attendez que le téléchargement se fasse, puis lancez l'installateur ainsi téléchargé
+ --> dites oui à tout :-) (acceptez les conditions d'utilisation!)
+
+(2) Mettre le dictionnaire de Notepad++ en français: N++ contient un dico (ce qui est essentiel pour ne pas brûler les yeux des lecteurs... (je ne citerai personne)).
+ --> Normalement, le dico est installé de base. S'il l'est pas, ben téléchargez le plugin (adresse: http://sourceforge.net/projects/dspellcheck/files/latest/download) puis installez-le (il faut extraire le fichier dll et le placer avec les autres plugins dans le dossier d'installation)
+ --> Le dico de base est en anglais: il faut télécharger le français. Depuis N++, cliquer sur les menus successifs "Plugins" > "DSpellCheck" > "Settings..."
+ --> Une fenêtre s'ouvre: dans l'onglet 'simple' (par défaut), cherchez le bouton "Download Dictionaries..." et cliquez dessus.
+ --> Une fenêtre s'ouvre (attendez un peu, ça doit charger), avec une liste de langages. Cochez "French" puis cliquez en bas sur "Install Selected".
+ --> Patientez un peu, le téléchargement se fait, la fenêtre se ferme. Le français est téléchargé!
+ --> A présent, toujours dans la fenêtre de "Settings" (la première) cliquez sur le bouton à coté de "Langage:" (pratiquement en-dessous de "Download Dictionaries") et séléctionnez "French" dans le menu déroulant.
+ --> Enfin, appuyez sur "Apply", en bas de la fenêtre.
+ 
+(3) Ajouter le coloriage de texte pour la Revue
+ --> Il faut d'abord que vous disposiez du fichier "LangageRevue.xml" (le nom peut varier, il faut que ce soit un XML bien spécifique).
+ --> C'est bon, vous l'avez? OK. Depuis N++, cliquez sur les menus successifs "Language">"Define Your language".
+ --> Une fenêtre s'ouvre: c'est le menu de création de langage. Contentez-vous de cliquer sur "Import..." et de séléctionner le fichier "LangageRevue.xml" (ou autre, enfin, vous avez compris)
+ --> Ben c'est tout. Pour activer le coloriage Revue sur un fichier, cliquez dans les menus de N++ sur "Language">"Revue" :-)
+ 
+(Bonus) Pour les élèves les plus exigeants: il peut être habile d'ajouter une extension spécifique aux fichiers de script.
+ --> L'avantage, c'est que cette extension peut être associée à Notepad++ dans l'ordi, et du coup c'est très confortable (il suffit de cliquer sur le fichier, et *pouf* l'éditeur s'ouvre).
+ --> Evitez cependant les extensions du type .revue :-P C'est un peu catch ^^ (enfin je sais pas si c'est un problème xD)
+ --> Comment associer une extension? Ben ça varie tellement d'un système à l'autre que c'est difficile de l'expliquer pour tout. En gros, en double-cliquant sur l'extension, si elle est inconnue du système,
+      en général une fenêtre s'ouvre pour demander quel programme employer (c'est la norme). Essayez ça :-) (sur Windows, en cherchant "extensions" dans le menu Démarrer (ou le système de recherche WIN+Q), il propose une page pour modifier les associations extensions-programme: vous pouvez faire ça si vous avez le courage...)

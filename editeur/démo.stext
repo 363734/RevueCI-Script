@@ -1,0 +1,25 @@
+% PSEUDO-SCRIPT
+% petit échantillon d'un (très) faux script potentiel de Revue, pour
+% illustrer les diverses fonctionnalités de Notepad++
+% Notez déjà que le commentaires fonctionnent :-P
+
+% Pour les macros de personnages, j'emploie ici ceux de la Revue 2015.
+% A vous de les modifier (ça se fait facilement dans le menu de Language).
+
+#SCENE 1
+\STATE{Tout va bien.}{Quelque chose se passe mal.}{Tout va mal.}
+\acteurs{\WINK, \BAT, \IM}
+\decor{Un temple Maya}
+\light{tamisée}
+
+% ceci est un commentaire, comme vous l'aurez compris
+
+\PAGEGAUCHE{ un petit peu de crap ici }
+
+*\WINK: Salut à toi, \BAT !
+*\BAT: Hé ben! Pas trop tôt! Tu te fais attendre comme la Revue Indiana Jones? \bruitage{c'est nuuuuul!}
+*\WINK: Très drôle... Hé, checke cette statuette \access{une statuette inca dorée sur un piédestal}
+
+@(Ils avancent vers la statuette) % une didascalie
+
+#END
