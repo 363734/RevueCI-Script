@@ -28,7 +28,6 @@ int parse_file(char *file)
         perror("Failed to open the file");
         return -1;
     }
-	
  	inBF = 0; // flag to indicate if starting line for speaking (* .. : .. )
 	inIT = 0; // flag to indicate if indication (@( .. ))
 	inDeep = 0; // Keep track of the deep of () into @(..)
